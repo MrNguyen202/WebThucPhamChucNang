@@ -1,0 +1,23 @@
+.vi-tri-GT {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.vi-tri-GT a {
+    text-decoration: none;
+    color: gray;
+}
+
+.vi-tri-GT a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.container-gt{
+    margin: 0px 186px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+}

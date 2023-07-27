@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/taikhoan.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.3.0-web/css/all.css">
+</head>
+
+<body>
+    <section>
+        <!--Phần Hình Ảnh-->
+        <div class="noi-dung">
+            <div class="form">
+                <h2>Trang Đăng Ký</h2>
+                <form method="get" onsubmit="return validateFormDK()" action="../code/tai_khoan_DN.html">
+                    <div class="input-form">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Tên Người Dùng</span>
+                            <span id="tich-xanhUser" style="display: none; margin-right: 10px;"><i
+                                    class="fa-solid fa-check" style="color: #3ce150;"></i></span>
+                        </div>
+                        <input id="usernameDK" type="text" name="">
+                        <span id="LoiUser" style="color: red;"></span>
+                    </div>
+                    <div class="input-form">
+                        <div class="d-flex justify-content-between">
+                            <span>Mật khẩu</span>
+                            <span id="tich-xanhPass" style="display: none; margin-right: 10px;"><i
+                                    class="fa-solid fa-check" style="color: #3ce150;"></i></span>
+                        </div>
+                        <input id="passwordDK" type="password" name="">
+                        <span id="LoiPass" style="color: red;"></span>
+                    </div>
+                    <div class="input-form">
+                        <div class="d-flex justify-content-between">
+                            <span>Xác nhận lại mật khẩu</span>
+                            <span id="tich-xanhPass-agrDk" style="display: none; margin-right: 10px;"><i
+                                    class="fa-solid fa-check" style="color: #3ce150;"></i></span>
+                        </div>
+                        <input id="password-agrDK" type="password" name="">
+                        <span id="LoiPwd-ggrDK" style="color: red;"></span>
+                    </div>
+                    <div class="input-form">
+                        <input id="link-webDK" type="submit" value="Đăng ký">
+                    </div>
+                    <div class="input-form">
+                        <p>Bạn đã có tài khoản? <a href="../code/tai_khoan_DN.html">Đăng nhập</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--Phần Nội Dung-->
+        <div class="noi-dung">
+            <img style="position: absolute; width: 100%;" src="../img/nen_login.jpg" alt="">
+        </div>
+    </section>
+</body>
+<script src="../js/check_register.js"></script>
+</html>

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/giao_dien_web_chinh.css">
+    <link rel="stylesheet" href="../css/tp_bo_gan.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/tin_tuc.css">
+    <link rel="stylesheet" href="../css/dat_hang.css">
+    <link rel="stylesheet" href="../css/gioi_thieu.css">
+    <link rel="stylesheet" href="../css/tin_tuc_chi_tiet_1.css">
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="tong">
+        <!-- Header -->
+        <header>
+            <!-- Tên công ty và phương thức liên hệ -->
+            <div class="topHeader">
+                <div class="topLeft">
+                    <i class="fa fa-home textColor"></i>
+                    <div class="fontchu">Công ty Cổ phần Thực phẩm chức năng HT</div>
+                </div>
+
+                <div class="topRight">
+                    <div class="email-phone">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="#" class="fontchu">nguyenthuan020010@gmail.com</a>
+                    </div>
+                    <div class="fontchu">|</div>
+                    <div class="email-phone">
+                        <i class="fa-sharp fa-solid fa-phone"></i>
+                        <a href="#" class="fontchu">0123.456.789</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hết phần tên công ty và phương thức liên hệ -->
+
+            <!-- Phần center của hearder -->
+            <div class="center">
+                <div class="logo">
+                    <img src="../img/Logo.png" alt="">
+                </div>
+
+                <div class="giaovan">
+                    <!-- Box giao vận thanh toán tại nhà -->
+                    <div class="box">
+                        <img width="45px" height="45px" src="../img/giao-hang-toan-quoc.png" alt="Lỗi ảnh">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td style="border-bottom: 1px solid grey;"><span><strong class="fontchu">Thanh toán
+                                                tại
+                                                nhà</strong></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="fontchu">Khu vực TP.HCM</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Box hotline -->
+                    <div class="box">
+                        <img width="45px" height="45px" src="../img/tu-van-mien-phi.png" alt="Lỗi ảnh">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td style="border-bottom: 1px solid grey;"><span><strong class="fontchu">Hotline:
+                                        0123456789</strong></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="fontchu">Tư vấn 24/7 miễn phí</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Box giao hàng quốc tế -->
+                    <div class="box">
+                        <img width="45px" height="45px" src="../img/tu-van-mien-phi.png" alt="Lỗi ảnh">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td style="border-bottom: 1px solid grey;"><span><strong class="fontchu">Giao hàng
+                                                quốc
+                                                tế</strong></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="fontchu">Ship COD tận nhà</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="giohang">
+                    <button class="khungGioHang">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span class="fontchu">Giỏ hàng</span>
+                    </button>
+                </div>
+
+                <div class="account">
+                    <img style="width: 40px; height: 40px;" src="../img/icon-people-circle.svg" alt="">
+                    <a href="../code/tai_khoan.html" class="fontchu">Tài khoản</a>
+                </div>
+
+            </div>
+            <!-- Hết phần center của header -->
+
+            <!-- Phần menu nằm trong header -->
+            <nav class="menu">
+                <div>
+                    <ul style="margin-bottom: 0px;">
+                        <li><a href="../code/giao_dien_web_chinh.html">TRANG CHỦ</a></li>
+                        <li><a href="../code/gioi_thieu.html">GIỚI THIỆU</a></li>
+                        <li><a href="../code/san_pham.html">SẢN PHẨM</a></li>
+                        <li><a href="../code/tin_tuc.html">TIN TỨC</a></li>
+                        <li><a href="../code/dat_hang.html">ĐẶT HÀNG</a></li>
+                        <li><a href="#6">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+
+                <div class="cbo-search">
+                    <div class="cbo">
+                        <form class="select-cbo" action="">
+                            <select id="select" name="select" class="fontchu">
+                                <option value="all">All</option>
+                                <option value="ha-tm">Huyết áp, tim mạch</option>
+                                <option value="bogan">Thực phẩm bổ gan</option>
+                                <option value="bomat">Thực phẩm bổ mắt</option>
+                                <option value="dinh-duong">Thực phẩm dinh dưỡng</option>
+                                <option value="lam-dep">Thực phẩm làm đẹp</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="search">
+                        <input type="text" name="srch" id="srch" placeholder="Bạn muốn tìm gì?" class="text">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Hết phần menu nằm trong header -->
+        </header>
+
+        <!-- Phần giới thiệu -->
+        <div class="container-gt">
+
+            <!-- tab trái -->
+            <div class="tab">
+                <!-- Danh sách sản phẩm -->
+                <div class="list-menu">
+                    <h4>Danh sách sản phẩm</h4>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/icon1.png" alt="">
+                                <span>Sản phẩm mới</span>
+                            </li>
+                        </a>
+                        <a href="../code/thuc_pham_bogan.html">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/trang-diem-2.png" alt="">
+                                <span>Thực phẩm bổ gan</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/salon-toc.png" alt="">
+                                <span>Huyết áp, tim mạch</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/duong-the.png" alt="">
+                                <span>Thực phẩm bổ mắt</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/nuoc-hoa-1.png" alt="">
+                                <span>Thực phẩm chăm sóc tóc</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/dac-tri.png" alt="">
+                                <span>Thực phẩm dinh dưỡng</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/trang-diem-2.png" alt="">
+                                <span>Thực phẩm làm đẹp</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img style="width: 20px; height: 20px;" src="../img/icon1.png" alt="">
+                                <span>Khuyến mãi</span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+                <!-- Sản phẩm bán chạy -->
+                <div class="d-flex flex-column sp-bc-tt">
+                    <h4>Sản phẩm bán chạy</h4>
+                    <div class="d-flex justify-content-between border-bottom">
+                        <img style="width: 70px; height: 70px;"
+                            src="../img/power-hlp-ho-tro-dieu-tri-dot-quy-tai-bien-768x768.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <a href="../code/chi_tiet_sp_HLP.html" class="link-sp">
+                                <h6>Power HLP - Hỗ trợ điều trị đột qụy, tai biến</h6>
+                            </a>
+                            <span class="gia-goc">1.350.000đ</span>
+                            <span class="gia-khuyenmai">1.229.999đ</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between border-bottom">
+                        <img style="width: 70px; height: 70px;" src="../img/oyster-plus-tang-cuong-sinh-ly-dan-ong.jpeg"
+                            alt="">
+                        <div class="d-flex flex-column">
+                            <a href="../code/chi_tiet_sp_Oyster Plus.html" class="link-sp">
+                                <h6>Oyster Plus - Tăng cường sinh lý đàn ông</h6>
+                            </a>
+                            <span class="gia-goc">1.500.000đ</span>
+                            <span class="gia-khuyenmai">1.200.000đ</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between border-bottom">
+                        <img style="width: 70px; height: 70px;" src="../img/bioglan-red-krill-oil-glucosamine-1-1.jpeg"
+                            alt="">
+                        <div class="d-flex flex-column">
+                            <a href="../code/chi_tiet_sp_Bioglan.html" class="link-sp">
+                                <h6>Bioglan Red Krill Oil & Glucosamine</h6>
+                            </a>
+                            <span class="gia-goc">1.500.000đ</span>
+                            <span class="gia-khuyenmai">1.200.000đ</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between border-bottom">
+                        <img style="width: 70px; height: 70px;"
+                            src="../img/doppelherz-prostacalm-ho-tro-dieu-tri-phi-dai-tien-liet-tuyen.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <a href="../code/chi_tiet_sp_U Slim.html" class="link-sp">
+                                <h6>U Slim - cho người khó giảm cân</h6>
+                            </a>
+                            <span class="gia-goc">1.500.000đ</span>
+                            <span class="gia-khuyenmai">1.200.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bài viết - tin tức -->
+                <div class="bv-tt">
+                    <h4>Bài viết - Tin tức</h4>
+                    <div style="margin-left: 15px; margin-right: 30px;">
+                        <div class="border-bottom">
+                            <a href="../code/tin_tuc_chi_tiet_1.html">
+                                <h6>Thiểu năng tuần hoàn não ngày càng trẻ hóa, vì sao?</h6>
+                            </a>
+                        </div>
+
+                        <div class="border-bottom">
+                            <a href="../code/tin_tuc_chi_tiet_2.html">
+                                <h6>Tràng lan thực phẩm chức năng không rõ nguồn gốc</h6>
+                            </a>
+                        </div>
+
+                        <div class="border-bottom">
+                            <a href="../code/tin_tuc_chi_tiet_3.html">
+                                <h6>Dùng mỹ phẩm đúng cách để không hỏng da</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tab phải -->
+            <div class="tab-right">
+                <div class="vitri-dat-hang vi-tri vi-tri-tin-tuc" style="width: 340px;">
+                    <a href="../code/giao_dien_web_chinh.html">TRANG CHỦ</a>
+                    <div>/</div>
+                    <a href="../code/tin_tuc.html">TIN TỨC</a>
+                    <div>/</div>
+                    <div>Thiểu năng tuần hoàn....</div>
+                </div>
+
+                <h2 style="color: rgb(88, 174, 32);">Thiểu năng tuần hoàn não ngày càng trẻ hóa, vì sao?</h2>
+                <p style="font-size: 10px;">POSTED ON 16/04/2023 BY THỰC PHẨM CHỨC NĂNG NTT</p>
+                <p style="text-align: justify;">
+                    <b>
+                        (TPCN-NTT) - Thiểu năng tuần hoàn não thường xảy ra khi lượng máu, oxy và các chất dinh dưỡng tới nuôi
+                        dưỡng các tế bào máu bị thiếu, làm ảnh hưởng tiêu cực đến các chức năng của não. Bệnh hay gặp ở
+                        người cao tuổi, tuy nhiên gần đây đang có xu hướng trẻ hóa gây nhiều hệ lụy cho sức khỏe.
+                    </b>
+                </p>
+
+                <div style="text-align: justify;">
+                    <div style="background-color: rgba(128, 128, 128, 0.3); height: 200px; padding: 10px 0px 0px 10px;"><b>Nội dung</b>
+                        <ol>
+                            <a href="../code/tin_tuc_chi_tiet_1.html#nd1">
+                                <li>Thiểu năng tuần hoàn não có xu hướng trẻ
+                                    hóa</li>
+                            </a>
+                            <a href="../code/tin_tuc_chi_tiet_1.html#nd2">
+                                <li>Nguyên nhân gây thiểu năng tuần hoàn não
+                                </li>
+                            </a>
+                            <a href="../code/tin_tuc_chi_tiet_1.html#nd3">
+                                <li>Triệu chứng của thiểu năng tuần hoàn não
+                                </li>
+                            </a>
+                            <a href="../code/tin_tuc_chi_tiet_1.html#nd4">
+                                <li>Các xét nghiệm chẩn đoán</li>
+                            </a>
+                            <a href="../code/tin_tuc_chi_tiet_1.html#nd5">
+                                <li>Các biện pháp điều trị thiểu năng tuần hoàn
+                                    não</li>
+                            </a>
+                            <a href="../code/tin_tuc_chi_tiet_1.html#nd6">
+                                <li>Phòng ngừa thiểu năng tuần hoàn não</li>
+                            </a>
+                        </ol>
+                    </div>
+
+                    <ol>
+                        <b>
+                            <li id="nd1">Thiểu năng tuần hoàn não có xu hướng trẻ hóa</li>
+                        </b>
+                        <p>
+                            Thiểu năng tuần hoàn não là tình trạng lượng máu lên não giảm, làm giảm sự cung cấp oxy
+                            và các chất dinh dưỡng nuôi não làm tế bào thần kinh não thiếu năng lượng để hoạt động.
+                        </p>
+
+                        <p>
+                            Bệnh thường xảy ra phổ biến với người trung niên, người cao tuổi, đặc biệt ở những người
+                            lao động trí óc. Tuy nhiên, hiện nay bệnh thiểu năng tuần hoàn não đang ngày càng có xu
+                            hướng trẻ hóa.
+                        </p>
+
+                        <p>
+                            Nguyên nhân là do cuộc sống hiện đại và công nghệ phát triển nên giới trẻ đang phải lao
+                            động bằng trí óc với cường độ làm việc, học tập cao hơn. Điều này tạo áp lực lớn lên não
+                            bộ và cơ thể khiến cơ thể stress, căng thẳng kéo dài…
+                        </p>
+
+                        <p>
+                            Ngoài ra, khẩu phần ăn uống của giới trẻ cũng thiên về chất đạm, chất béo, dầu mỡ và
+                            thức ăn chế biến nhanh… dẫn đến nguy cơ tăng cholesterol, mỡ trong máu, gây hẹp và tắc
+                            mạch máu não…
+                        </p>
+
+                        <p>
+                            Bên cạnh đó, giới trẻ cũng càng ngày có xu hướng lười vận động, lười tập luyện thể thao
+                            và chủ quan với những cảnh báo của cơ thể.
+                        </p>
+
+                        <p>
+                            Thiểu năng tuần hoàn não ở mức độ nhẹ sẽ gây chóng mặt, suy giảm trí nhớ, kém tập trung…
+                            Khi bệnh tiến triển nặng hơn, người bệnh có thể sẽ nói lắp, bị mất trí nhớ… và có thể
+                            đột quỵ rất nguy hiểm.
+                        </p>
+
+                        <b>
+                            <li id="nd2">Nguyên nhân gây thiểu năng tuần hoàn não</li>
+                        </b>
+
+                        <p>Những nguyên nhân gây ra tình trạng thiểu năng tuần hoàn não:</p>
+                        <p>
+                        <ul>
+                            <li>Do ảnh hưởng của bệnh xơ vữa động mạch khiến các mao mạch dẫn máu bị hẹp lại làm cản trở
+                                quá trình lưu thông máu. Đây là nguyên nhân chính gây bệnh.</li>
+                            <li>Do mạch máu bị dị dạng hoặc bị viêm tắc động mạch.</li>
+                            <li>Do ảnh hưởng từ các chấn thương: Thoát vị đĩa đệm tại cột sống cổ, thoái hóa đốt sống
+                                cổ... khiến mạch máu bị chèn ép.</li>
+                            <li>Do mắc các bệnh: U não, u dây thần kinh số 8 và các bệnh lý thần kinh khác.</li>
+                            <li>Do bị rối loạn huyết áp.</li>
+                        </ul>
+                        <div style="margin-bottom: 30px;">
+                            <img style="width: 700px;" src="../img/tuanhoannao1.jpg" alt="">
+                            <div style="background-color: rgba(128, 128, 128, 0.3); width: 700px;"><i>Các cục máu đông
+                                    là một trong những nguyên nhân chính gây ra bệnh thiểu năng tuần hoàn não.</i></div>
+                        </div>
+                        </p>
+
+                        <b>
+                            <li id="nd3">Triệu chứng của thiểu năng tuần hoàn não</li>
+                        </b>
+                        <p>
+                        <ul>
+                            <li>Cảm thấy nhức đầu thường xuyên: Đây là triệu chứng phổ biến và sớm nhất, chiếm khoảng
+                                90%. <br>Cơn đau có tính co thắt hoặc khu trú vùng chẩm gáy – trán</li>
+                            <li>Cảm giác chóng mặt: Loạng choạng khi đi hoặc đứng, thay đổi tư thế hoặc có cảm giác bồng
+                                bềnh như say sóng.</li>
+                            <li>Hoa mắt, tối sầm mắt nhất là khi chuyển từ nằm sang ngồi hoặc đứng đột ngột.</li>
+                            <li>Dị cảm: Bệnh nhân tự cảm thấy có cảm giác không thật, bất thường, cảm giác luôn nghe
+                                thấy tiếng ve kêu…</li>
+                            <li>Mất ngủ, ngủ kém.</li>
+                            <li>Rối loạn chú ý: Giảm chú ý, hay đãng trí.</li>
+                            <li>Rối loạn cảm xúc: Dễ bực bội, dễ xúc động.</li>
+                            <li>Rối loạn trí nhớ...</li>
+                        </ul>
+                        <div style="margin-bottom: 30px;">
+                            <img style="width: 700px;" src="../img/tuanhoannao2.jpg" alt="">
+                            <div style="background-color: rgba(128, 128, 128, 0.3); width: 700px;"><i>Siêu âm Doppler
+                                    mạch máu nếu nghi ngờ bị xơ vữa động mạch.</i></div>
+                        </div>
+                        </p>
+
+                        <b>
+                            <li id="nd4">Các xét nghiệm chẩn đoán</li>
+                        </b>
+                        <p>
+                            Khi thấy cơ thể có các triệu chứng trên, người bệnh cần đi khám sớm để được làm các xét
+                            nghiệm cần thiết tránh để xảy ra các biến chứng nguy hiểm. Bác sĩ có thể chỉ định:
+                        </p>
+                        <p>
+                        <ul>
+                            <li>Kiểm tra định lượng các thành phần mỡ trong máu như cholesterol, HDL-cholesterol,
+                                LDL-cholesterol, triglycerid…</li>
+                            <li>Chụp X-quang cột sống cổ các tư thế thẳng nghiêng, chếch 3/4 hai bên đánh giá tình trạng
+                                thoái hóa cột sống.</li>
+                            <li>Siêu âm Doppler mạch máu khi phát hiện tiếng thổi tâm thu trên đường đi của động mạch
+                                đốt sống hoặc hõm dưới đòn, phát hiện hẹp động mạch dưới đòn...</li>
+                        </ul>
+                        </p>
+
+                        <b>
+                            <li id="nd5">Các biện pháp điều trị thiểu năng tuần hoàn não</li>
+                        </b>
+                        <p>
+                            <b><i>Dùng thuốc:</i></b> Hiện nay có rất nhiều loại thuốc chữa triệu chứng này, tùy cơ chế
+                            bệnh sinh mà
+                            bác sĩ sẽ chỉ định dùng các loại thuốc điều trị khác nhau.
+                        </p>
+                        <p>
+                            - Các thuốc có cả dạng tiêm và uống như tanganil; thuốc dạng uống như sibelium; betaserc…
+                        </p>
+                        <p>
+                            - Các thuốc cải thiện tuần hoàn não: stugeron làm giãn mạch não hoặc tăng cung cấp oxy não
+                            như duxil hoặc tăng lưu thông mạch máu như piracetam…
+                        </p>
+                        <p>
+                            <b><i>Ngoại khoa:</i></b> Được bác sĩ chỉ định ở những bệnh nhân có biểu hiện tai biến mạch
+                            máu não tạm
+                            thời, nguyên nhân do xơ vữa động mạch cảnh trong hoặc động mạch đốt sống thân nền.
+                        </p>
+                        <p>
+                            - Động mạch cảnh trong: Phẫu thuật khai thông động mạch – kỹ thuật ghép hoặc bắc cầu.
+                        </p>
+                        <p>
+                            - Động mạch đốt sống – thân nền: Phẫu thuật lấy huyết khối, khai thông động mạch, bắc cầu,
+                            cắt bỏ các quai bất thường của động mạch đốt sống.
+                        </p>
+
+                        <b>
+                            <li id="nd6">Phòng ngừa thiểu năng tuần hoàn não</li>
+                        </b>
+                        <p>Tình trạng thiểu năng tuần hoàn khi kéo dài và không được điều trị kịp thời sẽ có các biến
+                            chứng nguy hiểm như: nhũn não, đột quỵ - tai biến, xuất huyết não, chết não… Do đó, để giảm
+                            nguy cơ mắc bệnh, đặc biệt là với giới trẻ, cần lưu ý:</p>
+                        <p>
+                        <ul>
+                            <li>Xây dựng chế độ ăn uống khoa học: Hạn chế ăn đồ ăn nhiều dầu mỡ, đồ ăn nhanh, thực phẩm
+                                chứa bảo quản.</li>
+                            <li>Nên ăn thực phẩm giàu dinh dưỡng, giảm hàm lượng cholesterol như: cá béo, rau xanh (súp
+                                lơ, rau cải bina,...), hải sản, các loại đậu, ngũ cốc nguyên hạt, hoa quả mọng nước
+                                (cam, quýt, bưởi, dâu tây, việt quất)...</li>
+                            <li>Có chế độ nghỉ ngơi hợp lý: Nên nghỉ ngơi tối thiểu 10 phút khi thực hiện các công việc
+                                về trí óc liên tục trong 2 giờ.</li>
+                            <li>Luyện tập thể dục thể thao thường xuyên để nâng cao sức khỏe, hạn chế tình trạng thừa
+                                cân, béo phì.</li>
+                            <li>Tránh căng thẳng, stress kéo dài.</li>
+                        </ul>
+                        </p>
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+        <!-- Phần footer -->
+        <footer>
+            <div class="gioi-thieu">
+                <h3 class="margin-bottom-h3">GIỚI THIỆU</h3>
+                <ul>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Khách hàng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Hệ thống quản lý</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ho-tro-khach-hang">
+                <h3 class="margin-bottom-h3">HỖ TRỢ KHÁCH HÀNG</h3>
+                <ul>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Hướng dẫn đặt hàng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Hướng dẫn thanh toán</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Trung tâm bảo hành</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Chính sách bảo hành</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Câu hỏi thường gặp</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Kiểm tra đơn đặt hàng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Chính sách bảo mật thông tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lien-he">
+                <h3 class="margin-bottom-h3">THÔNG TIN LIÊN HỆ</h3>
+                <ul>
+                    <li class="format-item"><b>Trụ sở chính: </b></li>
+                    <li class="format-item">- Điện thoại</li>
+                    <li class="format-item">- Email: thuanbluck@gmail.com</li>
+                    <li class="format-item"><b>Văn phòng tại Gò Vấp</b></li>
+                </ul>
+            </div>
+            <div class="cong-dong">
+                <h3 class="margin-bottom-h3">CỘNG ĐỒNG</h3>
+                <ul>
+                    <li class="format-item items-flex">
+                        <img src="../img/facebook-7118901_640.webp" alt="" style="width: 40px; height: 40px;">
+                        <a href="https://www.facebook.com/thanhthuan.nguyen.98031">Facebook</a>
+                    </li>
+                    <li class="format-item items-flex">
+                        <img src="../img/yt_1200.png" alt="" style="width: 40px; height: 40px;">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </li>
+                    <li class="format-item items-flex">
+                        <img src="../img/Instagram_logo_2016.svg.png" alt="" style="width: 40px; height: 40px;">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                    <li class="format-item items-flex">
+                        <img src="../img/logo-tiktok-inkythuatso-2-mesa-de-trabajo-1-27-09-13-05.jpg" alt=""
+                            style="width: 40px; height: 40px;">
+                        <a href="https://www.tiktok.com/">Tiktok</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Phần footer -->
+        <div class="ket-trang">
+            <p style="margin: 0px;">Copyright 2023 © nguyenthuan020010.com | thucphamchucnang.com</p>
+        </div>
+</body>
+
+</html>

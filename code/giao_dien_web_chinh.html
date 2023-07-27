@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực phẩm chức năng</title>
+    <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/giao_dien_web_chinh.css">
+    <link rel="stylesheet" href="../css/tvModal.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    
+</head>
+
+<body>
+    <div class="tong">
+        <!-- Phần header -->
+        <header>
+            <!-- Tên công ty và phương thức liên hệ -->
+            <div class="topHeader">
+                <div class="topLeft">
+                    <i class="fa fa-home textColor"></i>
+                    <div>Công ty Cổ phần Thực phẩm chức năng HT</div>
+                </div>
+
+                <div class="topRight">
+                    <div class="email-phone">
+                        <i class="fa-regular fa-envelope textColor"></i>
+                        <a href="#">nguyenthuan020010@gmail.com</a>
+                    </div>
+                    <div>|</div>
+                    <div class="email-phone">
+                        <i class="fa-sharp fa-solid fa-phone textColor"></i>
+                        <a href="#">0123.456.789</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hết phần tên công ty và phương thức liên hệ -->
+
+            <!-- Phần center của hearder -->
+            <div class="center">
+                <div class="logo">
+                    <img src="../img/Logo.png" alt="">
+                </div>
+
+                <div class="giaovan">
+                    <!-- Box giao vận thanh toán tại nhà -->
+                    <div class="box">
+                        <img width="45px" height="45px" src="../img/giao-hang-toan-quoc.png" alt="Lỗi ảnh">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td style="border-bottom: 1px solid grey;"><span><strong class="font">Thanh toán tại
+                                                nhà</strong></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="font">Khu vực TP.HCM</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Box hotline -->
+                    <div class="box">
+                        <img width="45px" height="45px" src="../img/tu-van-mien-phi.png" alt="Lỗi ảnh">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td style="border-bottom: 1px solid grey;"><span><strong class="font">Hotline:
+                                                0123456789</strong></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="font">Tư vấn 24/7 miễn phí</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Box giao hàng quốc tế -->
+                    <div class="box">
+                        <img width="45px" height="45px" src="../img/giao-hang-toan-quoc.png" alt="Lỗi ảnh">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td style="border-bottom: 1px solid grey;"><span><strong class="font">Giao hàng quốc
+                                                tế</strong></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="font">Ship COD tận nhà</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="../code/gio_hang.html">
+                    <div class="giohang">
+                        <button class="khungGioHang">
+                            <span><i class="fa-solid fa-cart-shopping textColor"></i></span>
+                            <span class="textColor">Giỏ hàng</span>
+                        </button>
+                    </div>
+                </a>
+
+
+                <div class="account">
+                    <img style="width: 40px; height: 40px;" src="../img/icon-people-circle.svg" alt="">
+                    <a href="../code/tai_khoan_DN.html">Tài khoản</a>
+                </div>
+
+            </div>
+            <!-- Hết phần center của header -->
+
+            <!-- Phần menu nằm trong header -->
+            <nav class="menu">
+                <div>
+                    <ul>
+                        <li><a href="../code/giao_dien_web_chinh.html">TRANG CHỦ</a></li>
+                        <li><a href="../code/gioi_thieu.html">GIỚI THIỆU</a></li>
+                        <li><a href="../code/san_pham.html">SẢN PHẨM</a></li>
+                        <li><a href="../code/tin_tuc.html">TIN TỨC</a></li>
+                        <li><a href="../code/dat_hang.html">ĐẶT HÀNG</a></li>
+                        <li><a href="#6">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+
+                <div class="cbo-search">
+                    <div class="cbo">
+                        <form class="select-cbo" action="">
+                            <select id="select" name="select">
+                                <option value="all">All</option>
+                                <option value="ha-tm">Huyết áp, tim mạch</option>
+                                <option value="bogan">Thực phẩm bổ gan</option>
+                                <option value="bomat">Thực phẩm bổ mắt</option>
+                                <option value="dinh-duong">Thực phẩm dinh dưỡng</option>
+                                <option value="lam-dep">Thực phẩm làm đẹp</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="search">
+                        <input type="text" name="srch" id="srch" placeholder="Bạn muốn tìm gì?" class="text">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Hết phần menu nằm trong header -->
+        </header>
+
+        <!-- Phần center -->
+        <div class="container-center">
+            <div class="menuSP-quangcao">
+                <div class="top-menu-quangcao">
+                    <div class="box-menu">
+                        <div class="tieu-de-dmsp">DANH MỤC SẢN PHẨM</div>
+                        <div class="sp-menu">
+                            <ul>
+                                <a href="#">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/icon1.png" alt="">
+                                        <span>Sản phẩm mới</span>
+                                    </li>
+                                </a>
+                                <a href="../code/thuc_pham_bogan.html">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/trang-diem-2.png" alt="">
+                                        <span>Thực phẩm bổ gan</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/salon-toc.png" alt="">
+                                        <span>Huyết áp, tim mạch</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/duong-the.png" alt="">
+                                        <span>Thực phẩm bổ mắt</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/nuoc-hoa-1.png" alt="">
+                                        <span>Thực phẩm chăm sóc tóc</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/dac-tri.png" alt="">
+                                        <span>Thực phẩm dinh dưỡng</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/trang-diem-2.png" alt="">
+                                        <span>Thực phẩm làm đẹp</span>
+                                    </li>
+                                </a>
+                                <a href="../code/khuyen_mai.html">
+                                    <li>
+                                        <img style="width: 20px; height: 20px;" src="../img/icon1.png" alt="">
+                                        <span>Khuyến mãi</span>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <img src="../img/Banner-qc-1.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="../img/Banner-qc-2.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="../img/Banner-qc-3.jpg" style="width: 852px; height: 348px">
+                        </div>
+                    </div>
+                    <br>
+
+
+                </div>
+
+                <div class="bottom-menu-quangcao">
+                    <div><img src="../img/Banner-4.jpg" alt=""></div>
+                    <div><img src="../img/Banner-3.jpg" alt=""></div>
+                    <div><img src="../img/Banner-2.jpg" alt=""></div>
+                </div>
+            </div>
+
+            <!-- Sản phẩm bán chạy -->
+            <div>
+                <div class="tieu-de-sp-ban-chay">
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                    <div>
+                        <h3 style="font-size: 20px;">SẢN PHẨM BÁN CHẠY</h3>
+                    </div>
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                </div>
+
+                <div class="danh-muc">
+                    <div class="sp1">
+                        <div class="boxKhuyenMai">
+                            <span>17%</span>
+                            <span>Giảm</span>
+                        </div>
+                        <span class="duoi"></span>
+                        <div> <img class="img-prd" style="width: 259px; height: 260px; border-radius: 10px;"
+                                src="../img/power-hlp-ho-tro-dieu-tri-dot-quy-tai-bien-768x768.jpeg" alt=""></div>
+                        <div class="text-center">
+                            <a class="ten-sp" href="../code/chi_tiet_sp_HLP.html">Power HLP - Hỗ trợ điều trị đột qụy,
+                                tai biến</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <span class="gia-goc">1.350.000đ</span>
+                                <span class="gia-khuyenmai price">1.229.999đ</span>
+                            </div>
+                            <button type="button" class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div> <img style="width: 259px; height: 260px; border-radius: 10px;"
+                                src="../img/oyster-plus-tang-cuong-sinh-ly-dan-ong.jpeg" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_Oyster Plus.html">Oyster Plus - Tăng cường sinh lý đàn ông</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <span class="gia-goc">1.500.000đ</span>
+                                <span class="gia-khuyenmai">1.200.000đ</span>
+                            </div>
+                            <button type="button" class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div class="boxKhuyenMai">
+                            <span>20%</span>
+                            <span>Giảm</span>
+                        </div>
+                        <span class="duoi"></span>
+                        <div> <img style="width: 259px; height: 260px; border-radius: 10px;"
+                                src="../img/bioglan-red-krill-oil-glucosamine-1-1.jpeg" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_Bioglan.html">Bioglan Red Krill Oil & Glucosamine</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-khuyenmai">299.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div> <img style="width: 259px; height: 260px; border-radius: 10px;"
+                                src="../img/doppelherz-prostacalm-ho-tro-dieu-tri-phi-dai-tien-liet-tuyen.jpeg" alt="">
+                        </div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_U Slim.html">U Slim - cho người khó giảm cân</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">120.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hết phần sản phẩm bán chạy -->
+
+
+            <!-- Thực phẩm làm đẹp -->
+            <div>
+                <div class="tieu-de-sp-ban-chay">
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                    <div>
+                        <h3 style="font-size: 20px;">THỰC PHẨM LÀM ĐẸP</h3>
+                    </div>
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                </div>
+
+                <div class="danh-muc">
+                    <div class="banner">
+                        <img src="../img/Banner-6.jpg" alt="">
+                    </div>
+
+                    <div class="sp1">
+                        <div> <img
+                                style="width: 258px; height: 260px; border-top-left-radius: 10px; border-top-right-radius: 10px;"
+                                src="../img/02--thuc-pham-chuc-nang-dep-da.png" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_Beauty.html">Beauty Collagen Tablets - Làm đẹp da</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">100.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div> <img style="width: 258px; height: 260px; border-radius: 10px;"
+                                src="../img/thuc-pham-chuc-nang-dep-da-13.webp" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_PerlesDepeau.html">Perles DePeau - Hỗ trợ làm đẹp da</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">100.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div class="boxKhuyenMai">
+                            <span>18%</span>
+                            <span>Giảm</span>
+                        </div>
+                        <span class="duoi"></span>
+                        <div> <img style="width: 258px; height: 260px; border-radius: 10px;"
+                                src="../img/thuc-pham-chuc-nang-lam-dep-da-cua-my.jpg" alt="">
+                        </div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_Collagen.html">Collagen + biotin - Hỗ trợ đẹp da</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">100.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hết phần thực phẩm làm đẹp -->
+
+
+            <!-- Thưc phẩm chức năng -->
+            <div>
+                <div class="tieu-de-sp-ban-chay">
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                    <div>
+                        <h3 style="font-size: 20px;">THỰC PHẨM CHỨC NĂNG</h3>
+                    </div>
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                </div>
+
+                <div class="danh-muc">
+                    <div class="sp1">
+                        <div class="boxKhuyenMai">
+                            <span>20%</span>
+                            <span>Giảm</span>
+                        </div>
+                        <span class="duoi"></span>
+                        <div> <img style="width: 259px; height: 260px; border-radius: 10px;"
+                                src="../img/power-hlp-ho-tro-dieu-tri-dot-quy-tai-bien-768x768.jpeg" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_HLP.html">Power HLP - Hỗ trợ điều trị đột qụy, tai biến</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">100.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div> <img style="width: 258px; height: 260px; border-radius: 10px;"
+                                src="../img/oyster-plus-tang-cuong-sinh-ly-dan-ong.jpeg" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_Oyster Plus.html">Oyster Plus - Tăng cường sinh lý đàn ông</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">100.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="sp1">
+                        <div class="boxKhuyenMai">
+                            <span>20%</span>
+                            <span>Giảm</span>
+                        </div>
+                        <span class="duoi"></span>
+                        <div> <img style="width: 259px; height: 260px; border-radius: 10px;"
+                                src="../img/bioglan-red-krill-oil-glucosamine-1-1.jpeg" alt=""></div>
+                        <div class="text-center">
+                            <a href="../code/chi_tiet_sp_Bioglan.html">Bioglan Red Krill Oil & Glucosamine</a>
+                            <p class="luu-y-chi-dinh text-center">Sản phẩm này không phải là thuốc và không có tác dụng
+                                thay thế thuốc chữa bệnh</p>
+                            <div class="gia-sp1">
+                                <div class="gia-goc">100.000đ</div>
+                                <div class="gia-khuyenmai">89.999đ</div>
+                            </div>
+                            <button class="nut-mua">Mua ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="banner">
+                        <img src="../img/Banner-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Hết phần thực phẩm chức năng -->
+
+
+            <!-- Tin tức về thực phẩm chức năng -->
+            <div>
+                <div class="tieu-de-sp-ban-chay">
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                    <div>
+                        <h3 style="font-size: 20px;">TIN TỨC VỀ THUỐC</h3>
+                    </div>
+                    <div style="width: 440px; height: 2px; background-color: rgb(169,214,140);"></div>
+                </div>
+
+                <div class="list-tin-tuc">
+                    <div class="khung-of-tin">
+                        <img src="../img/tanaka-plus-1-768x517.jpg" alt="">
+                        <h2><a href="../code/tin_tuc_chi_tiet_1.html" class="tieu-de-tin-tuc">Thiểu năng tuần hoàn não
+                                ngày càng trẻ hóa, vì sao?</a></h2>
+                        <p>
+                            Bệnh thiểu năng tuần hoàn não là bệnh lí khi tình trạng máu lên não không đủ khiến tế bào
+                            thần kinh không đủ năng lượng hoạt
+                        </p>
+                        <a href="../code/tin_tuc_chi_tiet_1.html"><button>Xem thêm</button></a>
+                    </div>
+
+                    <div class="khung-of-tin">
+                        <img src="../img/1446783621-1446783417-tran-lan-thuc-pham-chuc-nang-khong-ro-nguon-goc.jpg"
+                            alt="">
+                        <h2><a href="../code/tin_tuc_chi_tiet_2.html" class="tieu-de-tin-tuc">Tràng lan thực phẩm chức
+                                năng không rõ nguồn gốc</a>
+                        </h2>
+                        <p>
+                            Ngày 5-11, lực lượng quản lý thị trường Hà Nội đồng loạt kiểm tra 4 cửa hàng kinh doanh
+                            thực phẩm chức năng ...
+                        </p>
+                        <a href="../code/tin_tuc_chi_tiet_2.html"><button>Xem thêm</button></a>
+                    </div>
+
+                    <div class="khung-of-tin">
+                        <img src="../img/bannernho3.jpg" alt="">
+                        <h2><a href="../code/tin_tuc_chi_tiet_3.html" class="tieu-de-tin-tuc">Dùng mỹ phẩm đúng cách để
+                                không hỏng da</a></h2>
+                        <p>
+                            Giờ đây làm đẹp đã trở thành nhu cầu tất yếu của chị em. Mỹ phẩm với đa dạng chủng loại dùng
+                            để trang điểm mỗi ngày.
+                        </p>
+                        <a href="../code/tin_tuc_chi_tiet_3.html"><button>Xem thêm</button></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hết phần tin tức -->
+
+
+            <!-- Phản hồi của khách hàng -->
+            <div>
+                <div class="tieu-de-sp-ban-chay">
+                    <div style="width: 410px; height: 2px; background-color: rgb(169,214,140);"></div>
+                    <div>
+                        <h3 style="font-size: 20px;">PHẢN HỒI CỦA KHÁCH HÀNG</h3>
+                    </div>
+                    <div style="width: 410px; height: 2px; background-color: rgb(169,214,140);"></div>
+                </div>
+
+                <div class="khung-phan-hoi">
+                    <div class="phan-hoi">
+                        <img src="../img/avatar1.jpg" alt="">
+                        <p>
+                            Anh Thông, 38 tuổi, Làm IT, Hai Bà Trưng, Hà Nội. "Do đặc thù công việc, tôi hay phải thức
+                            khuya nghiên cứu, thời gian gần đây đầu óc luôn căng thẳng, mệt mỏi, suy giảm trí nhớ, làm
+                            việc không tập trung. Qua tìm hiểu tôi đã sử dụng sản phẩm Hoạt Huyết An Thần Tanaka Plus,
+                            tôi thấy hiệu quả ngay tức thì, không còn cảm thấy mệt mỏi nữa, làm việc cũng hiệu quả hơn."
+                        </p>
+                    </div>
+                    <div class="phan-hoi">
+                        <img src="../img/avater-2.jpg" alt="">
+                        <p>
+                            Chị My, 25 tuổi, làm văn phòng, Cầu Giấy, Hà Nội. "Do đặc thù công việc, tôi hay phải thức
+                            khuya nghiên cứu, thời gian gần đây đầu óc luôn căng thẳng, mệt mỏi, suy giảm trí nhớ, làm
+                            việc không tập trung. Qua tìm hiểu tôi đã sử dụng sản phẩm Hoạt Huyết An Thần Tanaka Plus,
+                            tôi thấy hiệu quả ngay tức thì, không còn cảm thấy mệt mỏi nữa, làm việc cũng hiệu quả hơn."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Hết phần phản hồi của khách hàng -->
+        </div>
+
+        <!-- Đăng ký tư vấn sản phẩm -->
+        <div class="dang-ky-tu-van">
+            <div class="mo-ta">
+                <h2 style="margin: 0px;">ĐĂNG KÝ TƯ VẤN SẢN PHẨM</h2> <br>
+                <p style="margin: 0px;">Gửi email cho chúng tôi để nhận thông tin về sản phẩm phù hợp dành cho bạn</p>
+            </div>
+
+            <div class="nut-dang-ky">
+                <button id="tv">ĐĂNG KÝ NGAY</button>
+            </div>
+        </div>
+
+        <!-- Dich vu-->
+        <div class="dich-vu">
+            <div class="dv-1">
+                <img src="../img/icon1.jpg" alt="">
+                <div class="nd-dv">
+                    <h3>Vận chuyển miễn phí</h3>
+                    <p>với đơn hàng >600.000đ</p>
+                </div>
+            </div>
+
+            <div class="dv-1">
+                <img src="../img/icon2.jpg" alt="">
+                <div class="nd-dv">
+                    <h3>Chất lượng bảo đảm</h3>
+                    <p>hàng chính hãng</p>
+                </div>
+            </div>
+
+            <div class="dv-1">
+                <img src="../img/icon3.jpg" alt="">
+                <div class="nd-dv">
+                    <h3>Đổi trả miễn phí</h3>
+                    <p>trong vòng 15 ngày</p>
+                </div>
+            </div>
+
+            <div class="dv-1">
+                <img src="../img/icon4.jpg" alt="">
+                <div class="nd-dv">
+                    <h3>Hỗ trợ miễn phí</h3>
+                    <p>Từ: 06h30 - 23h00</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Phần footer -->
+        <footer>
+            <div class="gioi-thieu">
+                <h3 class="margin-bottom-h3">GIỚI THIỆU</h3>
+                <ul>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Khách hàng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Hệ thống quản lý</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ho-tro-khach-hang">
+                <h3 class="margin-bottom-h3">HỖ TRỢ KHÁCH HÀNG</h3>
+                <ul>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Hướng dẫn đặt hàng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Hướng dẫn thanh toán</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Trung tâm bảo hành</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Chính sách bảo hành</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Câu hỏi thường gặp</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Kiểm tra đơn đặt hàng</a>
+                    </li>
+                    <li class="format-item">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#">Chính sách bảo mật thông tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lien-he">
+                <h3 class="margin-bottom-h3">THÔNG TIN LIÊN HỆ</h3>
+                <ul>
+                    <li class="format-item"><b>Trụ sở chính: </b></li>
+                    <li class="format-item">- Điện thoại</li>
+                    <li class="format-item">- Email: thuanbluck@gmail.com</li>
+                    <li class="format-item"><b>Văn phòng tại Gò Vấp</b></li>
+                </ul>
+            </div>
+            <div class="cong-dong">
+                <h3 class="margin-bottom-h3">CỘNG ĐỒNG</h3>
+                <ul>
+                    <li class="format-item items-flex">
+                        <img src="../img/facebook-7118901_640.webp" alt="" style="width: 40px; height: 40px;">
+                        <a href="https://www.facebook.com/thanhthuan.nguyen.98031">Facebook</a>
+                    </li>
+                    <li class="format-item items-flex">
+                        <img src="../img/yt_1200.png" alt="" style="width: 40px; height: 40px;">
+                        <a href="https://www.youtube.com/">Youtube</a>
+                    </li>
+                    <li class="format-item items-flex">
+                        <img src="../img/Instagram_logo_2016.svg.png" alt="" style="width: 40px; height: 40px;">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                    <li class="format-item items-flex">
+                        <img src="../img/logo-tiktok-inkythuatso-2-mesa-de-trabajo-1-27-09-13-05.jpg" alt=""
+                            style="width: 40px; height: 40px;">
+                        <a href="https://www.tiktok.com/">Tiktok</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Phần footer -->
+        <div class="ket-trang">
+            <p style="margin: 0px;">Copyright 2023 © nguyenthuan020010.com | thucphamchucnang.com</p>
+        </div>
+
+        <!-- Phần modal tư vấn -->
+        <div class="modal" id="tvModal">
+            <!-- Nội dung modal -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div><span id="close">&times;</span></div>
+                    <div class="modal-header">
+                        <h2 style="color: rgb(88, 174, 32); margin: 20px;" class="text-center">Form thông tin tư vấn
+                        </h2>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="dong">
+                                <input class="vien" type="text" id="hoten" placeholder="Họ và tên">
+                                <div id="tbTen"></div>
+                            </div>
+
+                            <div class="dong">
+                                <input class="vien" type="text" id="sdt" placeholder="Số điện thoại">
+                                <div id="tbSDT"></div>
+                            </div class="dong">
+
+                            <div class="dong">
+                                <input class="vien" type="text" id="mail" placeholder="Email">
+                                <div id="tbMail"></div>
+                            </div>
+
+                            <div class="dong">
+                                <input class="vien" type="text" id="address" placeholder="Địa chỉ">
+                                <div id="tbAddress"></div>
+                            </div>
+
+                            <div>
+                                <textarea class="vien" style="outline: none;" name="question" id="question" cols="55"
+                                    rows="4" placeholder="Câu hỏi cần tư vấn của anh/chị"></textarea>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="dk">Đăng ký ngay</button>
+                    </div>
+
+                    <div id="tbTong"></div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<!-- Nhúng script -->
+<script src="../js/subport_giaodienchinh.js"></script>
+<script src="../js/tvModal.js"></script>
+
+</html>

@@ -1,0 +1,29 @@
+.tab-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    width: 80%;
+    height: 70px;
+}
+
+.dat-hang{
+    margin: 0px 186px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vitri-dat-hang{
+    height: 40px;
+    width: 175px;
+    font-size: 15px;
+}
+
+.tab-right{
+    margin-left: 30px;
+}
+.form-dat-hang h4{
+    color: rgb(83,172,25);
+}

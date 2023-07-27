@@ -1,0 +1,16 @@
+.slide1, .slide2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 186px;
+}
+
+.vt-san-pham{
+    width: 200px;
+}
+
+.sp-bg{
+    margin-right: 20px;
+}

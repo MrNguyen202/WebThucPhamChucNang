@@ -1,0 +1,18 @@
+.gio-hang{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-gio-hang{
+  width: 700px;
+  margin-left: 20px;
+}
+
+.tong-tien{
+  margin-top: 37px;
+  margin-left: 20px;
+  padding-left: 20px;
+  width: 400px;
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+}

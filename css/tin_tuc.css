@@ -1,0 +1,55 @@
+.tin-tuc{
+    margin: 0px 186px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sp-bc-tt{
+    margin-left: 20px;
+    width: 250px;
+}
+
+.list-menu ul{
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 0px 10px;
+    width: 250px;
+}
+
+.list-menu ul a li{
+    width: 230px;
+}
+
+.tab{
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+    width: 300px;
+}
+
+.tab-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 830px;
+}
+
+.chieu-cao{
+    display: flex;
+    flex-direction: row;
+}
+
+.chieu-cao img{
+    margin-right: 20px;
+}
+
+.nd-tt a{
+    text-decoration: none;
+    color: gray;
+}
+
+.vitri-tintuc{
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}

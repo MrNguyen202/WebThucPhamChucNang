@@ -1,0 +1,7 @@
+.slide_sp_khuyen_mai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 186px;
+}

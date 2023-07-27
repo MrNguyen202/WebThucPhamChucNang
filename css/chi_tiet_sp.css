@@ -1,0 +1,241 @@
+.nd-ctsp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 186px;
+}
+
+.tab-ctsp {
+    border-left: 1px solid rgba(128, 128, 128, 0.3);
+    width: 300px;
+}
+
+.chi-nhanh {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.chi-nhanh1,
+.chi-nhanh2 {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+#anh img {
+    width: 458px;
+    height: 458px;
+    margin-right: 20px;
+}
+
+.bv-tt {
+    margin-right: 30px;
+}
+
+#nd-chi-tiet {
+    margin-right: 25px;
+}
+
+.vi-tri-ctsp {
+    width: 180px;
+    margin: 0px;
+    align-items: center;
+}
+
+.tab-trai {
+    display: flex;
+    flex-direction: column;
+    width: 845px;
+}
+
+.tab-trai-header {
+    width: 845px;
+    display: flex;
+    flex-direction: row;
+}
+
+#ten-tpcn,
+#gia {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin: 5px 0px;
+    /* display: flex;
+    align-items: center; */
+}
+
+
+.uu-dai {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.uu-dai p {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.uu-dai ul {
+    padding-left: 25px;
+}
+
+.uu-dai ul li p {
+    margin: 0px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.uu-dai ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ma-uu-dai p {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.ma-uu-dai input {
+    width: 360px;
+    height: 30px;
+    border: 1px solid rgb(88, 174, 32);
+    outline: none;
+    border-radius: 5px;
+}
+
+.mua {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.so-luong-mua {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    height: 36px;
+}
+
+.so-luong-mua input {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.so-luong-mua div {
+    width: 40px;
+    height: 36px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lien-he-ct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lien-he-ct button {
+    width: 177px;
+}
+
+.dat-HN {
+    margin-top: 20px;
+}
+
+.dat-HN button {
+    width: 362px;
+}
+
+.danh-gia {
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    margin-top: 30px;
+    margin-right: 25px;
+    padding-top: 10px;
+}
+
+.nav,
+.nav-item {
+    background-color: rgb(88, 174, 32);
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.thong-tin-ct {
+    display: flex;
+    flex-direction: row;
+}
+
+.thong-tin-ct ul li p {
+    text-align: justify;
+}
+
+.table-ct {
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.table-ct tr {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.table-ct tr th {
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.sao-danh-gia button {
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+}
+
+.sao-danh-gia button:hover {
+    cursor: pointer;
+}
+
+.khung-danh-gia {
+    border: 2px solid rgb(88, 174, 32);
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.khung-danh-gia textarea {
+    margin-top: 20px;
+}
+
+.boxKM {
+    position: absolute;
+    background-color: rgb(241, 90, 34);
+    width: 59px;
+    height: 47px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    left: 583px;
+}
+
+.duoiKM {
+    position: absolute;
+    border-width: 0px 30px 15px;
+    border-style: solid;
+    border-color: white rgb(241, 90, 34) transparent rgb(241, 90, 34);
+    top: 267px;
+    left: 583px;
+}
